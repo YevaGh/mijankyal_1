@@ -3,7 +3,7 @@
 
 string rle::dCoder()
 {
-    char a[16] = { '2','1','2','2','0','0','6','7','8','4','Y','E','V','A','G','H' };
+    char a[16] = { 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z' };
     string result = "";
     for (int i = 0; i < s.length(); i++) {
         int k = 1;
@@ -22,7 +22,7 @@ string rle::dCoder()
 
 string rle::nCoder()
 {
-    char a[16] = { '2','1','2','2','0','0','6','7','8','4','Y','E','V','A','G','H' };
+    char a[16] = { 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z' };
     string d = dCoder();
     string result = "";
     int k, l = 0;
